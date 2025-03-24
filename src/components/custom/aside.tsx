@@ -23,7 +23,7 @@ function Aside({ id }: AsideProps) {
 
     return (
         <>
-            <div className="sticky top-[20px] h-full max-w-[500px] p-[20px] shadow-lg border-[#d8d6d6] border-[1px] rounded-[12px]">
+            <div className="sticky top-[20px] h-full max-w-[400px] p-[20px] shadow-lg border-[#d8d6d6] border-[1px] rounded-[12px]">
                 <div>
                     <img draggable={false} className="h-[200px] w-full mb-[60px]" src={product.thumbnail} alt={product.title} />
                     <h1 className="font-bold text-[17px] mb-[10px]">{product.title}</h1>
