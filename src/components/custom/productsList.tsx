@@ -58,8 +58,7 @@ const ProductsList: React.FC<ProductProps> = () => {
                     )
                 }
             </div>
-
-            {selectedProductId && <Aside id={selectedProductId} />}
+            <Aside id={selectedProductId} />
         </>
     );
 }
