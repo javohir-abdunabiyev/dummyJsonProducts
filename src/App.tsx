@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import './App.css'
 import { ReloadCTX } from './contexts/reload';
-import ProductsList from './components/custom/productsList';
+import UserManagement from './components/custom/userManagement';
 function App() {
   const [reload, setReload] = useState(true);
 
   return (
-    <div className='flex gap-[10px]'>
+    <div className=''>
       <ReloadCTX.Provider value={[reload, setReload]}>
-        <ProductsList />
+        <UserManagement />
       </ReloadCTX.Provider>
     </div>
   )
