@@ -1,12 +1,3 @@
 {
-  "users": [
-    {
-      "id": "c119",
-      "name": "John Jones",
-      "email": "jon@gmail.com",
-      "status": "Active",
-      "role": "Viewer",
-      "lastActive": "2025-03-26"
-    }
-  ]
+  "users": []
 }
